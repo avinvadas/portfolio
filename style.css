@@ -324,7 +324,7 @@ ol li{
   margin: auto;
 }
 .section__heading {
-  background-image: linear-gradient(90deg, var(--dark01) 50%, transparent 50%);
+  background-image: linear-gradient(90deg,#111111 0%, var(--accent02dark) 50%, transparent 50%);
 
   background-size: 200%;
   background-position: 100% 0%;
@@ -468,11 +468,8 @@ ol li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: radial-gradient(ellipse at top left, rgba(242, 109, 104,0.1), transparent),
-            radial-gradient(ellipse at bottom right, rgba(164, 115, 162,0.15), transparent);
-  /*rgba(242, 109, 104,0.33) 50%,
-    rgba(164, 115, 162,0.33) 100%*/
-  border-right: solid 1px var(--dark01);
+  background-image: linear-gradient(#111111, #3F2846);
+  border-right: solid 1px var(--accent02);
 }
 .logo {
   width: 100%;
@@ -481,7 +478,7 @@ ol li{
   align-items: center;
   justify-content: center;
   flex-grow: 0;
-  color: var(--accent02);
+  color: var(--bright01);
   background-position:50% 50%;
   background-repeat: no-repeat;
   background-size: 0% 0%;
@@ -542,10 +539,11 @@ ol li{
   background-size: 200%;
   background-position: 0% 0%;
 
-  color:var(--accent02);
+  color:var(--accent01);
   background-position:50% 50%;
   background-repeat: no-repeat;
   background-size: 0% 0%;
+  transform:translateY(-2em);
 }
 .social_icon:focus {
   outline:none;
@@ -566,21 +564,22 @@ ol li{
   justify-content: center;
   background-image: linear-gradient(
     90deg,
-        var(--accent02) 0%,
-    var(--accent01) 50%,
-    var(--accent03) 50%,
-    var(--accent04) 100%
+    transparent 0%,
+    transparent 50%,
+    var(--accent02) 50%,
+    var(--accent01) 100%
   );
   opacity: 0;
   background-size: 200%;
   background-position: 0% 0%;
-  transition:  0.33s;
+  transform:translateY(-2em);
+  transition: 0.33s;
 
 }
 .nav_icon--revealed {
   visibility: visible;
   opacity: 1;
-  color: var(--accent02);
+  color: var(--bright01);
   background-position: 100% 0%;
 }
 .nav_icon--revealed:hover {
@@ -595,12 +594,10 @@ ol li{
   color: var(--bright01);
   background-position: 0% 0%;
 }
-.nav_icon__graphics {
-  width: 24px;
-  height: 24px;
+.nav_icon_graphics {
+width:24px;
+height:24px;
 
-
-  /*fill: linear-gradient(var(--accent03), var(--accent02), var(--accent01));*/
 }
 
 .statement_box {
