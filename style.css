@@ -510,10 +510,12 @@ ol li{
   opacity: 1;
 }
 .logotype__name {
-  font-weight: 700;
+  font-size: 0.75em;
+  font-weight: 500;
 }
 .logotype__title {
-  font-weight: 400;
+  font-size: 0.75em;
+  font-weight: 300;
 }
 .logotype--hidden {
   opacity: 0;
@@ -719,6 +721,7 @@ opacity:0;
 .section_hero__subHeading {
   margin: 0;
   margin-top: 1em;
+  font-weight: lighter;
 }
 .section_hero__clients {
   margin: 0;
@@ -745,8 +748,8 @@ opacity:0;
   background-repeat: no-repeat;
   background-image: linear-gradient(
     90deg,
-    var(--accent04) 0%,
-    var(--accent03) 50%,
+    #691E2D 0%,
+    #291330 50%,
     var(--accent01) 50%,
     var(--accent02) 100%
 
@@ -763,11 +766,11 @@ opacity:0;
 }
 .button_contact:hover {
   background-position: 0%;
-  color: var(--accent02);
+  color: var(--bright01);
   cursor: pointer;
 }
 .button_contact:focus {
-  color: var(--accent02);
+  color: var(--bright01);
   background-position: 0%;
   outline: 0.1em solid var(--accent01);
   outline-offset: 0.25em;
@@ -822,7 +825,7 @@ opacity:0;
   color:var(--bright01);
 }
 .client_logo_graphics {
-
+width:100%;
 }
 #logo_ibm{
   transform:scale(0.75) translateX(-15%);
@@ -924,22 +927,4 @@ width:3.1em;
 
 }
 
-}
-/*
-@media screen and (min-width: 75em) {
-  .heading_01 {
-    font-size: calc(var(--h1-fontsize-max) * 1em);
-  }
-  .heading_02 {
-    font-size: calc(var(--h2-fontsize-max) * 1em);
-  }
-  .heading_03 {
-    font-size: calc(var(--h3-fontsize-max) * 1em);
-  }
-  .heading_04 {
-    font-size: calc(var(--h4-fontsize-max) * 1em);
-  }
-  .paragraph {
-    line-height: calc(var(--lineHeight-max) * 1em);
-  }
 }
