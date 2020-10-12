@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+
+.project__image {
+  width: 100%;
+}
+.project_hero {
+  width: calc(100vw- 3em);
+  height: 56vh;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2em;
+}
+.project_hero--hackTheVault {
+  background-image: url("../imgs/project-vault.jpg");
+  color: white;
+}
+
+.heading_01 {
+  margin: 0;
+}
+
+.heading_04 {
+  margin: 0;
+}
+.project_data {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.project_data__item {
+  margin-top: 0.5em;
+}
+.section {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 6em;
+  /* border-bottom: 2px solid var(--dark01);*/
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  margin-top: 2em;
+}
+
+.content a {
+  text-decoration: none;
+  color: var(--dark01);
+} /* Unvisited link  */
+.content a:visited {
+  color: var(--dark01);
+} /* Visited link    */
+.content a:hover {
+  color: var(--dark01);
+} /* Mouse over link */
+.content a:active {
+  color: var(--dark01);
+} /* Selected link   */

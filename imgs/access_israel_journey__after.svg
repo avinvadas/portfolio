@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1068px" height="280px" viewBox="0 0 1068 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>access_israel__suggested_journey</title>
+    <g id="access_israel__suggested_journey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phase4" transform="translate(244.000000, 167.000000)"></g>
+        <g id="Group-2" transform="translate(19.000000, 85.000000)">
+            <g id="phase3" transform="translate(424.000000, 0.000000)">
+                <path d="M365.424892,2 L409.700255,80 L365.424892,158 L2,158 L2,2 L365.424892,2 Z" id="arrow_shape" stroke="#22AB5C" stroke-width="4"></path>
+                <text id="phase_title" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#22AB5C">
+                    <tspan x="38" y="34"> Plan + Running</tspan>
+                </text>
+                <text id="Online-market-place" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                    <tspan x="16" y="69">Online market-place for </tspan>
+                    <tspan x="16" y="89">accessibility products &amp; services</tspan>
+                    <tspan x="16" y="109"></tspan>
+                    <tspan x="16" y="129">(phase 02) </tspan>
+                </text>
+            </g>
+            <g id="phase1">
+                <polygon id="arrow_shape" stroke="#A4CEDF" stroke-width="4" points="0 0 154.589372 0 200 80 154.589372 160 0 160"></polygon>
+                <text id="barrier" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20" fill="#1A1A1A">
+                    <tspan x="13" y="69">Prior:</tspan>
+                    <tspan x="13" y="89">Confusion, lostness.</tspan>
+                    <tspan x="13" y="109">Fear of shaming</tspan>
+                    <tspan x="123.16" y="109" font-family="LucidaGrande, Lucida Grande">, </tspan>
+                    <tspan x="13" y="129" font-family="LucidaGrande, Lucida Grande">penalty</tspan>
+                    <tspan x="69.71875" y="129"> or losing </tspan>
+                    <tspan x="13" y="149">business license.</tspan>
+                </text>
+                <text id="phase_title" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#1A1A1A">
+                    <tspan x="9" y="34">Awreness</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(863.000000, 14.000000)" fill="#1A1A1A">
+                <text id="--Regulation--compli" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20">
+                    <tspan x="0" y="55">- Regulation- compliace</tspan>
+                    <tspan x="0" y="75">- Socially “on good side”</tspan>
+                    <tspan x="0" y="95">- Can serve wider range </tspan>
+                    <tspan x="0" y="115">    of customers</tspan>
+                </text>
+                <text id="Accessible." font-family="Lato-Bold, Lato" font-size="20" font-weight="bold">
+                    <tspan x="3" y="20">Accessible.</tspan>
+                </text>
+            </g>
+            <path d="M446,14 C452.616875,14 458,19.383125 458,26 C458,32.616875 452.616875,38 446,38 C439.383125,38 434,32.616875 434,26 C434,19.383125 439.383125,14 446,14 Z M446,15.9459219 C440.456281,15.9459219 435.945922,20.4563281 435.945922,26 C435.945922,31.5440469 440.456328,36.0540781 446,36.0540781 C451.544,36.0540781 456.054078,31.544 456.054078,26 C456.054078,20.4562813 451.544,15.9459219 446,15.9459219 Z M451.165809,21.9837664 C451.567525,21.6101728 452.201689,21.6274789 452.582072,22.0204117 C452.963082,22.4136756 452.946093,23.0349445 452.544714,23.4079234 L452.544714,23.4079234 L445.431638,30.0164773 C445.237609,30.1960632 444.989813,30.2857143 444.742016,30.2857143 C444.48085,30.2857143 444.220359,30.1862753 444.024352,29.9890051 L444.024352,29.9890051 L440.284138,26.2270157 C439.898108,25.8386694 439.906458,25.2174005 440.302865,24.8392203 C440.69961,24.4606619 441.333099,24.4691731 441.719467,24.8575194 L441.719467,24.8575194 L444.770059,27.925942 Z" id="Combined-Shape" fill="#22AB5C" fill-rule="nonzero"></path>
+        </g>
+        <g id="phase2" transform="translate(231.000000, 85.000000)">
+            <path d="M21,14 C27.616875,14 33,19.383125 33,26 C33,32.616875 27.616875,38 21,38 C14.383125,38 9,32.616875 9,26 C9,19.383125 14.383125,14 21,14 Z M21,15.9459219 C15.4562813,15.9459219 10.9459219,20.4563281 10.9459219,26 C10.9459219,31.5440469 15.4563281,36.0540781 21,36.0540781 C26.544,36.0540781 31.0540781,31.544 31.0540781,26 C31.0540781,20.4562813 26.544,15.9459219 21,15.9459219 Z M26.1658086,21.9837664 C26.5675249,21.6101728 27.2016893,21.6274789 27.5820721,22.0204117 C27.9630824,22.4136756 27.9460928,23.0349445 27.5447144,23.4079234 L27.5447144,23.4079234 L20.4316379,30.0164773 C20.2376094,30.1960632 19.9898128,30.2857143 19.7420161,30.2857143 C19.4808499,30.2857143 19.2203593,30.1862753 19.0243519,29.9890051 L19.0243519,29.9890051 L15.2841381,26.2270157 C14.8981082,25.8386694 14.9064582,25.2174005 15.3028653,24.8392203 C15.6996102,24.4606619 16.3330989,24.4691731 16.7194666,24.8575194 L16.7194666,24.8575194 L19.7700586,27.925942 Z" id="Combined-Shape" fill="#22AB5C" fill-rule="nonzero"></path>
+            <polygon id="arrow_shape" stroke="#22AB5C" stroke-width="4" points="0 0 154.589372 0 200 80 154.589372 160 0 160"></polygon>
+            <text id="phase_title" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#22AB5C">
+                <tspan x="41" y="34">Consultantcy</tspan>
+            </text>
+            <text id="Online-Self-Accessib" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="13" y="69">Online Self </tspan>
+                <tspan x="13" y="89">Accessibility Survey</tspan>
+                <tspan x="13" y="109"></tspan>
+                <tspan x="13" y="129">(phase 01) </tspan>
+            </text>
+        </g>
+        <text id="Suggested-user-journ" font-family="Quicksand-Light_Medium, Quicksand" font-size="24" font-weight="400" fill="#1C1C1C">
+            <tspan x="19" y="49">Suggested user journey:</tspan>
+        </text>
+    </g>
+</svg>
