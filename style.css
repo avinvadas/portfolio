@@ -293,6 +293,8 @@ ol li{
   line-height: var(--p-lineHeight);
   width: 60vw;
   max-width: 32em;
+
+
 }
 .paragraph strong{
   font-family: inherit;
@@ -700,7 +702,14 @@ margin-left:0.05em;
   transition: all 1s;
 }
 
-
+.bio_portrait{
+  margin-top: 4em;
+  max-width:20em;
+  max-height:20em;
+  width:66vw;
+  height:66vw;
+  box-shadow: -0.5em -0.5em 0 var(--accent02dark);
+}
 .hero_heading--hidden span:nth-child(1){
   text-indent:1em;
   opacity:0;

@@ -15,6 +15,12 @@ var scene_heading_work = new ScrollMagic.Scene({
   .triggerHook("onEnter")
   .addTo(controller);
 
+  var scene_heading_testimonials = new ScrollMagic.Scene({
+    triggerElement: "#section_heading-about"
+  })
+    .setClassToggle("#section_heading-about", "section__heading--reveal")
+    .triggerHook("onEnter")
+    .addTo(controller);
 var scene_heading_testimonials = new ScrollMagic.Scene({
   triggerElement: "#section_heading-testimonials"
 })
