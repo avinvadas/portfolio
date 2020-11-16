@@ -5,11 +5,16 @@
   --dark02: #3b3b3b;
   --bright01: #fafafa;
   --action: #ffa500;
-  --accent01: #e2404f;
-  --accent02: #673176;
+  --accent01: #00FF00 ;
+  --accent02: #12B312;
   --accent02dark: #653F5D;
-  --accent03: #FFC0B4;
-  --accent04: #AEBEFF;
+  --accent03: #136E13;
+  --accent04: #0B330B;
+  --primary01: #FF0080;
+  --primary02: #B30059;
+  --primary03: #3F1B39;
+  --primary04: #3D1C37;
+  --primary05: #1D0F1B;
   --line_width: 0.125em;
   --em-unitBase: 16;
   --em-unitBasePX: var(--em-unitBase) + "px";
@@ -293,7 +298,7 @@ ol li{
   line-height: var(--p-lineHeight);
   width: 60vw;
   max-width: 32em;
-
+  word-break:
 
 }
 .paragraph strong{
@@ -326,7 +331,7 @@ ol li{
   margin: auto;
 }
 .section__heading {
-  background-image: linear-gradient(90deg,#111111 0%, var(--accent02dark) 50%, transparent 50%);
+  background-image: linear-gradient(90deg,var(--primary05) 0%, var(--primary04) 50%, transparent 50%);
 
   background-size: 200%;
   background-position: 100% 0%;
@@ -362,7 +367,7 @@ ol li{
   justify-content: flex-end;
 }
 .project_li a:focus {
-  outline: 1px solid var(--accent02);
+  outline: 4px solid var(--accent02);
   outline-offset:1em;
 }
 .project_li__client {
@@ -406,7 +411,7 @@ ol li{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: -0.5em -0.5em 0 var(--accent02dark);
+  box-shadow: -0.5em -0.5em 0 var(--primary04);
 }
 .project_li__image img::after {
   -webkit-box-shadow: inset 0 0 1em 1em white;
@@ -470,8 +475,8 @@ ol li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: linear-gradient(#111111, #3F2846);
-  border-right: solid 1px var(--accent02);
+  background-image: linear-gradient(var(--primary05), var(--primary04));
+  border-right: solid 1px var(--primary01);
   z-index:10;
 }
 .logo {
@@ -489,7 +494,7 @@ ol li{
 }
 .logo:focus{
   outline:none;
-  color: var(--bright01);
+  color: var(--accent04);
   background-image: linear-gradient(var(--accent02), var(--accent01));
   background-position:50% 50%;
   background-repeat: no-repeat;
@@ -544,7 +549,7 @@ ol li{
   background-size: 200%;
   background-position: 0% 0%;
 
-  color:var(--accent01);
+  color:var(--primary01);
   background-position:50% 50%;
   background-repeat: no-repeat;
   background-size: 0% 0%;
@@ -553,7 +558,7 @@ ol li{
 .social_icon:focus {
   outline:none;
   border-radius:0.25em;
-  color: var(--bright01);
+  color: var(--accent04);
   background-image: linear-gradient(var(--accent02), var(--accent01));
   background-position:50% 50%;
   background-repeat: no-repeat;
@@ -584,19 +589,19 @@ ol li{
 .nav_icon--revealed {
   visibility: visible;
   opacity: 1;
-  color: var(--bright01);
+  color: var(--accent04);
   background-position: 100% 0%;
 }
 .nav_icon--revealed:hover {
   visibility: visible;
   opacity: 1;
-  color: var(--bright01);
+  color: var(--accent01);
   background-position: 0% 0%;
 }
 .nav_icon--revealed:focus {
   visibility: visible;
   opacity: 1;
-  color: var(--bright01);
+  color: var(--accent01);
   background-position: 0% 0%;
 }
 .nav_icon_graphics {
@@ -628,7 +633,7 @@ height:24px;
   justify-content: center;
   height:90vh;
   color: var(--bright01);
-  background-image: linear-gradient(#111111, #3F2846);
+  background-image: linear-gradient(var(--primary05), var(--primary04));
 }
 .client_url, .client_url:visited {
   width:75%;
@@ -636,13 +641,14 @@ height:24px;
   text-decoration:none;
 
 }
-.client_url:hover {
+.client_url: hover {
+  color: var(--bright01);
 
-  text-decoration:underline;
 }
-.client_url:focus {
-  outline: 1px var(--accent01);
-  text-decoration:underline;
+.client_url: focus {
+  color: var(--accent01);
+  outline: 2px solid var(--accent01);
+
 }
 @keyframes hero_bg{
   from{
@@ -704,11 +710,9 @@ margin-left:0.05em;
 
 .bio_portrait{
   margin-top: 4em;
-  max-width:20em;
-  max-height:20em;
-  width:66vw;
-  height:66vw;
-  box-shadow: -0.5em -0.5em 0 var(--accent02dark);
+  width:20rem;
+  height:20rem;
+  box-shadow: -0.5em -0.5em 0 var(--primary04);
 }
 .hero_heading--hidden span:nth-child(1){
   text-indent:1em;
@@ -752,17 +756,17 @@ opacity:0;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none;
-  color: var(--bright01);
+  color: var(--accent01);
   font-weight:600;
   border: none;
   background-size: 200%;
   background-repeat: no-repeat;
   background-image: linear-gradient(
     90deg,
-    #691E2D 0%,
-    #291330 50%,
-    var(--accent01) 50%,
-    var(--accent02) 100%
+    var(--accent01) 0%,
+    var(--accent02) 50%,
+    var(--accent03) 50%,
+    var(--accent04) 100%
 
   );
   box-shadow:0 0 0 rgba(0,0,0,0.25) 1em;
@@ -777,11 +781,11 @@ opacity:0;
 }
 .button_contact:hover {
   background-position: 0%;
-  color: var(--bright01);
+  color: var(--accent04);
   cursor: pointer;
 }
 .button_contact:focus {
-  color: var(--bright01);
+  color: var(--accent04);
   background-position: 0%;
   outline: 0.1em solid var(--accent01);
   outline-offset: 0.25em;
@@ -837,6 +841,7 @@ opacity:0;
 }
 .client_logo_graphics {
 width:100%;
+color: inherit;
 }
 #logo_ibm{
   transform:scale(0.75) translateX(-15%);
