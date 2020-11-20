@@ -398,11 +398,11 @@ ol li{
 }
 .project_li__client {
 
-  display:inline-block;
-  width:fit-content;
+  display: inline-block;
+  width: fit-content;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  padding-right: 0.5em; 
+  padding-right: 0.5em;
   padding-left: 0.5em;
   margin-top:0.25em;
   color: var(--bright01);
@@ -687,7 +687,7 @@ height:24px;
 }
 
 .client_url{
-  width:75%;
+  width: fit-content;
   color: var(--bright01);
 
 }
@@ -699,6 +699,9 @@ height:24px;
   color: var(--accent04);
   outline: 2px solid var(--accent01);
   background: var(--accent01);
+}
+.client_logo_graphics{
+  width: 100%;
 }
 @keyframes hero_bg{
   from{
