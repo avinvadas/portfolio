@@ -1,17 +1,21 @@
 
 :root {
   font-size:16px;
-  --dark01: #2b2b2b;
-  --dark02: #48404f;
+  --dark01: #171216;
+  --dark02: #291F3A;
+  --dark03: #4A3C60;
+  --dark04: #6C627F;
+  --dark05: #7D7788;
   --bright01: #fafafa;
+  --bright02: #C0C5C9;
   --action: #ffa500;
   --accent01: #00FF00 ;
   --accent02: #12B312;
   --accent03: #136E13;
   --accent04: #0B330B;
   --primary01: #FF0080;
-  --primary02: #B30059;
-  --primary03: #3F1B39;
+  --primary02: #B71063;
+  --primary03: #901452;
   --primary04: #20171E;
   --primary05: #23101F;
   --line_width: 0.125em;
@@ -313,7 +317,7 @@ ol li{
   font-size: 0.75em;
 }
 .service{
-  color:var(--primary03);
+  color:var(--dark03);
 }
 .testimonial{
 
@@ -344,12 +348,12 @@ ol li{
   margin: auto;
 }
 .section__heading {
-  background-image: linear-gradient(90deg,var(--primary05) 0%, var(--primary04) 50%, transparent 50%);
+  background-image: linear-gradient(90deg,var(--dark02) 0%, var(--dark01) 50%, transparent 50%);
 
   background-size: 200%;
   background-position: 100% 0%;
   background-repeat: repeat-x;
-  color: var(--dark01);
+  color: var(--bright01);
   padding-left: 10%;
   padding-right: 2%;
   padding-top: 1%;
@@ -385,7 +389,7 @@ ol li{
 }
 .project_li a:focus img{
   outline: 4px solid var(--accent02);
-  
+
   box-shadow: -0.5em -0.5em 0 var(--accent02);
 
 }
@@ -499,8 +503,8 @@ color: var(--dark01);
   flex-direction: column;
   align-items:center;
   justify-content: space-between;
-  background-image: linear-gradient(var(--primary05), var(--primary04));
-  border-right: solid 1px var(--primary01);
+  background-image: linear-gradient(var(--dark01), var(--dark02));
+  border-right: solid 1px var(--dark03);
   z-index:10;
 }
 .logo {
@@ -671,7 +675,7 @@ height:24px;
   justify-content: center;
   height:90vh;
   color: var(--bright01);
-  background-image: linear-gradient(var(--primary05), var(--primary04));
+  background-image: linear-gradient(var(--dark01), var(--dark02));
 }
 
 .client_url{
