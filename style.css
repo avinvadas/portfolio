@@ -384,8 +384,9 @@ ol li{
 
 }
 .project_li a:focus img{
+
   outline: 4px solid var(--accent02);
-  
+
   box-shadow: -0.5em -0.5em 0 var(--accent02);
 
 }
@@ -750,7 +751,7 @@ margin-left:0.05em;
 
 .bio_portrait{
   margin-top: 4em;
-  width:20rem;
+  width:16rem;
   height:20rem;
   box-shadow: -0.5em -0.5em 0 var(--primary03);
 }
