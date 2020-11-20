@@ -18,6 +18,8 @@
   --primary03: #901452;
   --primary04: #20171E;
   --primary05: #23101F;
+
+  --internal_darks: var(--dark03);
   --line_width: 0.125em;
   --em-unitBase: 16;
   --em-unitBasePX: var(--em-unitBase) + "px";
@@ -348,7 +350,7 @@ ol li{
   margin: auto;
 }
 .section__heading {
-  background-image: linear-gradient(90deg,var(--dark02) 0%, var(--dark01) 50%, transparent 50%);
+  background-image: linear-gradient(90deg,var(--dark01) 0%, var(--internal_darks) 50%, transparent 50%);
 
   background-size: 200%;
   background-position: 100% 0%;
@@ -396,10 +398,15 @@ ol li{
 }
 .project_li__client {
 
-  padding: 0;
-  margin: 0;
+  display:inline-block;
+  width:fit-content;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-right: 0.5em; 
+  padding-left: 0.5em;
   margin-top:0.25em;
-  color: var(--primary03);
+  color: var(--bright01);
+  background-image:linear-gradient(90deg, var(--dark02), var(--dark03));
 }
 .project_li__title {
   padding: 0;
@@ -418,7 +425,7 @@ ol li{
   width: 66.6%%;
   min-width: 19vw;
   max-width: 60em;
-  background-image: linear-gradient(90deg, var(--dark02) 50%, transparent 50%);
+  background-image: linear-gradient(90deg, var(--internal_darks) 50%, transparent 50%);
   background-size: 200%;
   background-position: 100% 0%;
   /*border-radius: 1em 0 1em 0;*/
@@ -436,7 +443,7 @@ ol li{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: -0.5em -0.5em 0 var(--primary03);
+  box-shadow: -0.5em -0.5em 0 var(--internal_darks);
 }
 .project_li__image img::after {
   -webkit-box-shadow: inset 0 0 1em 1em white;
@@ -467,8 +474,8 @@ ol li{
   padding: 0.5em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  color: white;
-  background: var(--dark01);
+  color: var(--internal_darks);
+  border: var(--internal_darks);
   background-size: 2em;
 }
 .li_textual {
@@ -755,9 +762,9 @@ margin-left:0.05em;
 
 .bio_portrait{
   margin-top: 4em;
-  width:16rem;
-  height:20rem;
-  box-shadow: -0.5em -0.5em 0 var(--primary03);
+  max-width:16rem;
+  max-height:20rem;
+  box-shadow: -0.5em -0.5em 0 var(--dark03);
 }
 .hero_heading--hidden span:nth-child(1){
   text-indent:1em;
