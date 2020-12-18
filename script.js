@@ -1,6 +1,43 @@
 /*var section__headings = document.getElementsByClassName("section__heading");*/
 var controller = new ScrollMagic.Controller();
 
+
+//ScrollMagic//
+var controller = new ScrollMagic.Controller();
+
+//timelines//
+var tl_hero_in = new TimelineMax();
+tl_hero_in.from("#hero_graphics_container", 1, {
+  backgroundImage: "radial-gradient(white 2em, black 2em)"
+});
+tl_hero_in.to("#hero_graphics_container", 1, {
+  backgroundImage: "radial-gradient(white 1px, black 1px)"
+});
+
+var tl_hero_out = new TimelineMax();
+tl_hero_out.from("#hero_graphics_container", 1, {
+  backgroundImage: "radial-gradient(white 1px, black 1px)"
+});
+tl_hero_out.to("#hero_graphics_container", 1, {
+  backgroundImage: "radial-gradient(white 2em, black 2em)"
+});
+
+var scene_heading__leave = new ScrollMagic.Scene({
+  triggerElement: "#hero_graphics_container",
+  triggerHook: "onLeave",
+  duration: "200%"
+})
+  .setTween(tl_hero_out)
+  .addTo(controller);
+
+var scene_heading__enter = new ScrollMagic.Scene({
+  triggerElement: "#hero_graphics_container",
+  triggerHook: "onEnter",
+  duration: "100%"
+})
+  .setTween(tl_hero_in)
+  .addTo(controller);
+
 var scene_heading_services = new ScrollMagic.Scene({
   triggerElement: "#section_heading-services"
 })

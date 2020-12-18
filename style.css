@@ -4,10 +4,8 @@
   --dark01: #171216;
   --dark02: #291F3A;
   --dark03: #4A3C60;
-  --dark04: #6C627F;
-  --dark05: #7D7788;
   --bright01: #fafafa;
-  --bright02: #C0C5C9;
+
   --action: #ffa500;
   --accent01: #00FF00 ;
   --accent02: #12B312;
@@ -45,124 +43,6 @@
 /*typo_transition*/
   --type_distance: 0.5em;
   --type_speed: 0.3s;
-  /*H1 vars*/
-  --h1-typeface: var(--tf-heading);
-  --h1-fontsize-min: 1.5;
-  --h1-fontsize-max: 4;
-  --h1-lineHeight-min: 1.15;
-  --h1-lineHeight-max: 2;
-  --h1-font-weight: 900;
-  --h1-lineHeight: calc(
-    (var(--h1-lineHeight-min) * 1em) +
-      (var(--h1-lineHeight-max) - var(--h1-lineHeight-min)) *
-      (
-        (100vw - var(--min-screen-width)) /
-          (
-            (var(--em-unitBase) * var(--bp-xl)) -
-              (var(--em-unitBase) * var(--bp-s))
-          )
-      )
-  );
-
-  /*H2 vars*/
-  --h2-typeface: var(--tf-heading);
-  --h2-fontsize-min: 1.625;
-  --h2-fontsize-max: 2.25;
-  --h2-lineHeight-min: 1.25;
-  --h2-lineHeight-max: 1.5;
-  --h2-font-weight: 400;
-  --h2-lineHeight: calc(
-    (var(--h2-lineHeight-min) * 1em) +
-      (var(--h2-lineHeight-max) - var(--h2-lineHeight-min)) *
-      (
-        (100vw - var(--min-screen-width)) /
-          (
-            (var(--em-unitBase) * var(--bp-xl)) -
-              (var(--em-unitBase) * var(--bp-s))
-          )
-      )
-  );
-  /*H3 vars*/
-  --h3-typeface: var(--tf-heading);
-  --h3-fontsize-min: 1.375;
-  --h3-fontsize-max: 1.75;
-  --h3-lineHeight-min: 1.25;
-  --h3-lineHeight-max: 1.5;
-  --h3-font-weight: 500;
-  --h3-lineHeight: calc(
-    (var(--h3-lineHeight-min) * 1em) +
-      (var(--h3-lineHeight-max) - var(--h3-lineHeight-min)) *
-      (
-        (100vw - var(--min-screen-width)) /
-          (
-            (var(--em-unitBase) * var(--bp-xl)) -
-              (var(--em-unitBase) * var(--bp-s))
-          )
-      )
-  );
-  /*H4 vars*/
-  --h4-typeface: var(--tf-body);
-  --h4-fontsize-min: 1;
-  --h4-fontsize-max: 1.125;
-  --h4-lineHeight-min: 1.5;
-  --h4-lineHeight-max: 1.75;
-  --h4-font-weight: 400;
-  --h4-lineHeight: calc(
-    (var(--h4-lineHeight-min) * 1em) +
-      (var(--h4-lineHeight-max) - var(--h4-lineHeight-min)) *
-      (
-        (100vw - var(--min-screen-width)) /
-          (
-            (var(--em-unitBase) * var(--bp-xl)) -
-              (var(--em-unitBase) * var(--bp-s))
-          )
-      )
-  );
-  /*H5 vars*/
-  --h5-typeface: var(--tf-body);
-  --h5-fontsize-min: 1;
-  --h5-fontsize-max: 1;
-  --h5-lineHeight-min: 1.25;
-  --h5-lineHeight-max: 1.5;
-  --h5-font-weight: 500;
-  --h5-lineHeight: calc(
-    (var(--h5-lineHeight-min) * 1em) +
-      (var(--h5-lineHeight-max) - var(--h5-lineHeight-min)) *
-      (
-        (100vw - var(--min-screen-width)) /
-          (
-            (var(--em-unitBase) * var(--bp-xl)) -
-              (var(--em-unitBase) * var(--bp-s))
-          )
-      )
-  );
-  /*p vars*/
-  --p-typeface: var(--tf-body);
-  --p-fontsize-min: 0.875;
-  --p-lineHeight-min: 1.5;
-  --p-lineHeight-max: 2;
-  /*H6 vars*/
-  --h6-typeface: var(--tf-body);
-  --h6-fontsize-min: 0.75;
-  --h6-fontsize-max: 1;
-  --h6-lineHeight-min: 1.11;
-  --h6-lineHeight-max: 1.22;
-  --h6-font-weight: 400;
-  --h6-lineHeight: calc(
-    (var(--h1-lineHeight-min) * 1em) +
-      (var(--h6-lineHeight-max) - var(--h6-lineHeight-min)) *
-      (
-        (100vw - var(--min-screen-width)) /
-          (
-            (var(--em-unitBase) * var(--bp-xl)) -
-              (var(--em-unitBase) * var(--bp-s))
-          )
-      )
-  );
-
-  font-size: var(--em-unitBasePX);
-  font-family: "Lato", sans-serif;
-  color: var(--dark01);
 }
 body {
   font-size: calc(
@@ -260,48 +140,61 @@ ol li{
 }
 
 .heading_01 {
-  font-family: var(--h1-typeface);
-  font-size: calc(var(--h1-fontsize-min) * 1em);
-  font-weight: var(--h1-font-weight);
-  line-height: var(--h1-lineHeight);
+  --fontsize_min: 2rem;
+  --fontsize_max: 6rem;
+  font-family: var(--tf-heading);
+  font-size: clamp( var(--fontsize_min), 8vmin, var(--fontsize_max));
+  font-weight: bold;
+  line-height: 1;
   letter-spacing: 0.01em;
 }
 .heading_02 {
-  font-family: var(--h2-typeface);
-  font-size: calc(var(--h2-fontsize-min) * 1em);
-  font-weight: var(--h2-font-weight);
-  line-height: var(--h2-lineHeight);
+  --fontsize_min: 1.625rem;
+  --fontsize_max: 2.25rem;
+  font-family: var(--tf-heading);
+  font-size: clamp( var(--fontsize_min), 4vmin, var(--fontsize_max));
+  font-weight: medium;
+  line-height: 1;
 }
 .heading_03 {
-  font-family: var(--h3-typeface);
-  font-size: calc(var(--h3-fontsize-min) * 1em);
-  font-weight: var(--h3-font-weight);
-  line-height: var(--h3-lineHeight);
+  --fontsize_min: 1.375rem;
+  --fontsize_max: 1.75rem;
+  font-family: var(--tf-heading);
+  font-size: clamp( var(--fontsize_min), 3vmin, var(--fontsize_max));
+  font-weight: bold;
+  line-height: 1.25;
 }
 .heading_04 {
-  font-family: var(--h4-typeface);
-  font-size: calc(var(--h4-fontsize-min) * 1em);
-  font-weight: var(--h4-font-weight);
-  line-height: var(--h4-lineHeight);
+  --fontsize_min: 1rem;
+  --fontsize_max: 1.25rem;
+  font-family: var(--tf-heading);
+  font-size: clamp( var(--fontsize_min), 2vmin, var(--fontsize_max));
+  font-weight: light;
+  line-height: 1.5;
 }
 .heading_05 {
-  font-family: var(--h5-typeface);
-  font-size: calc(var(--h5-fontsize-min) * 1em);
-  font-weight: var(--h5-font-weight);
-  line-height: var(--h5-lineHeight);
+  --fontsize_min: 0.875rem;
+  --fontsize_max: 1rem;
+  font-family: var(--tf-body);
+  font-size: clamp( var(--fontsize_min), 5vmin, var(--fontsize_max));
+  font-weight: bold;
+  line-height: 1.5;
 }
 .heading_06 {
-  font-family: var(--h6-typeface);
-  font-size: calc(var(--h6-fontsize-min) * 1em);
-  font-weight: var(--h6-font-weight);
-  line-height: var(--h6-lineHeight);
+  --fontsize_min: 0.75rem;
+  --fontsize_max: 1rem;
+  font-family: var(--tf-body);
+  font-size: clamp( var(--fontsize_min), 4vmin, var(--fontsize_max));
+  font-weight: bold;
+  line-height: 1.5;
 }
 .paragraph, .paragraph * {
-  font-family: var(--p-typeface);
-  font-size: calc(var(--p-fontsize-min) * 1em);
-  hyphens: auto;
+  --fontsize_min: 0.875rem;
+  --fontsize_max: 1.25rem;
+  font-family: var(--tf-body);
+  font-size: clamp( var(--fontsize_min), 4.5vmin, var(--fontsize_max));
   font-weight: 400;
-  line-height: var(--p-lineHeight);
+  line-height: 2;
   width: 60vw;
   max-width: 32em;
   word-break:
@@ -351,7 +244,6 @@ ol li{
 }
 .section__heading {
   background-image: linear-gradient(90deg,var(--dark01) 0%, var(--internal_darks) 50%, transparent 50%);
-
   background-size: 200%;
   background-position: 100% 0%;
   background-repeat: repeat-x;
@@ -688,7 +580,15 @@ height:24px;
   color: var(--bright01);
   background-image: linear-gradient(var(--dark01), var(--dark02));
 }
-
+#hero_graphics_container {
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 2em 2em;
+  position: absolute;
+  z-index: 0;
+}
 .client_url{
   width: fit-content;
   color: var(--bright01);
@@ -723,13 +623,10 @@ height:24px;
 
 .section_hero__heading {
   width:90vw;
-  font-size:12vmin;
   margin:0;
   padding:0;
-  --hero_heading-color: var(--bright01);
   color:var(--bright01);
- word-spacing:0.14em;
-
+  word-spacing:0.14em;
 }
 
 /*words regular state*/
@@ -808,9 +705,9 @@ opacity:0;
 }
 .button_contact {
   font-size: inherit;
-  height: 3em;
+  height: 2.5em;
   display: flex;
-  width: 8em;
+  width: 7.5em;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none;
@@ -914,8 +811,9 @@ opacity:0;
 }
 .li_service__detail {
   margin: 0;
-  margin-top: 1em;
+  margin-top: 0.5em;
   opacity: 0.8;
+  line-height:1.5;
 }
 
 @media only screen and (max-width: 480px) {
