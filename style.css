@@ -3,7 +3,7 @@
   font-size:16px;
   --dark01: #171216;
   --dark02: #291F3A;
-  --dark03: #4A3C60;
+  --dark03: #888888;
   --bright01: #fafafa;
 
   --action: #ffa500;
@@ -184,7 +184,7 @@ ol li{
   --fontsize_max: 1.5rem;
   font-family: var(--tf-body);
   font-size: clamp( var(--fontsize_min), calc(0.5rem + 2vmin), var(--fontsize_max));
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   width: 60vw;
   max-width: 32em;
@@ -481,15 +481,15 @@ color: var(--dark01);
 
 }
 .social_icon:hover {
-  color:var(--dark01);
-  background:var(--accent01);
+  color:var(--accent01);
+  background:var(--dark03);
 
 }
 .social_icon:focus {
   outline:none;
   border-radius:0.25em;
-  color: var(--accent04);
-  background-image: linear-gradient(var(--accent02), var(--accent01));
+  color: var(--accent01);
+  background-image: linear-gradient(var(--dark01), var(--dark03));
   background-position:50% 50%;
   background-repeat: no-repeat;
   background-size: 85% 85%;
