@@ -94,6 +94,7 @@ ol li{
 }
 .paragraph a{
   outline:none;
+  font-weight:bolder;
   padding:0.25em;
   text-decoration: none;
   color: var(--dark01);
@@ -364,6 +365,25 @@ ol li{
   color: var(--internal_darks);
   border: var(--internal_darks);
   background-size: 2em;
+}
+.project_li__url_list{
+  padding-top:0.5rem;
+  display:flex;
+  border-top: solid 1px var(--dark01);
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.project_li__url {
+  /*border-radius: 1em;*/
+margin:0.25rem;
+margin-right:0.5rem;
+  text-align: left;
+
+  color: var(--internal_darks);
+  border: var(--internal_darks);
+
 }
 .li_textual {
   margin-top: 2em;
