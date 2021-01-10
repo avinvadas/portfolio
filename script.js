@@ -84,6 +84,7 @@ tl_hero_out.to("#your", 1, {textIndent: "100%", autoAlpha:0},0)
 .to("#product", 1, {textIndent: "-100%", autoAlpha:0},0.1)
 .to("#clearer", 1, {textIndent: "100%", autoAlpha:0},0.2);
 
+
 var scene_heading_leave = new ScrollMagic.Scene({
   triggerElement: "#hero_content",
   duration: '10%',
@@ -93,6 +94,18 @@ var scene_heading_leave = new ScrollMagic.Scene({
 })
   .addTo(controller)
   .setTween(tl_hero_out);
+var tl_heroBG_out = new TimelineMax();
+tl_heroBG_out.to("#hero_background",1,{css:{transform:"rotate(-45deg", opacity:0}, scale:1, autoAlpha:0},0);
+
+var scene_heading_leave = new ScrollMagic.Scene({
+  triggerElement: ".section_hero",
+  duration: '100%',
+  triggerHook: 'onLeave',
+
+  reverse: true
+})
+  .addTo(controller)
+  .setTween(tl_heroBG_out);
 /*
 
 var scene_heading_enter = new ScrollMagic.Scene({
