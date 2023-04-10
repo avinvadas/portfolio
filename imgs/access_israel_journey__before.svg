@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1068px" height="360px" viewBox="0 0 1068 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>access_israel__current_journey </title>
+    <g id="access_israel__current_journey-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phase4-copy" transform="translate(655.000000, 85.000000)">
+            <polygon id="arrow_shape" stroke="#FF4343" stroke-width="4" points="0 0 154.589372 0 200 80 154.589372 160 0 160"></polygon>
+            <text id="Running" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#FF4343">
+                <tspan x="43" y="32">Running</tspan>
+            </text>
+            <text id="Barrier:-lack-of-kno" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20" fill="#1A1A1A">
+                <tspan x="9" y="65">Barrier:</tspan>
+                <tspan x="9" y="85">lack of knowledge and </tspan>
+                <tspan x="9" y="105">tools to prioritize and </tspan>
+                <tspan x="9" y="125">negotiate solutions.</tspan>
+            </text>
+        </g>
+        <g id="phase3-copy" transform="translate(443.000000, 85.000000)">
+            <path d="M153.424892,2 L197.700255,80 L153.424892,158 L2,158 L2,2 L153.424892,2 Z" id="arrow_shape-copy" stroke="#FF4343" stroke-width="4"></path>
+            <text id="barrier" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20" fill="#1A1A1A">
+                <tspan x="16" y="65">Barrier:</tspan>
+                <tspan x="16" y="85">intimidating high </tspan>
+                <tspan x="16" y="105">costs of the process.</tspan>
+            </text>
+            <text id="phase_title" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#FF4343">
+                <tspan x="40" y="31"> Plan</tspan>
+            </text>
+        </g>
+        <g id="phase2-copy" transform="translate(231.000000, 85.000000)">
+            <polygon id="arrow_shape" stroke="#FF4343" stroke-width="4" points="0 0 154.589372 0 200 80 154.589372 160 0 160"></polygon>
+            <text id="barrier" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20" fill="#1A1A1A">
+                <tspan x="14" y="65">Barrier:</tspan>
+                <tspan x="14" y="85">High entry cost for </tspan>
+                <tspan x="14" y="105">prior consultany.</tspan>
+            </text>
+            <text id="phase_title" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#FF4343">
+                <tspan x="38" y="31">Consultantcy</tspan>
+            </text>
+        </g>
+        <g id="phase1-copy" transform="translate(19.000000, 85.000000)">
+            <polygon id="arrow_shape-copy-2" stroke="#A4CEDF" stroke-width="4" points="0 0 154.589372 0 200 80 154.589372 160 0 160"></polygon>
+            <text id="barrier" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20" fill="#1A1A1A">
+                <tspan x="13" y="65">Prior:</tspan>
+                <tspan x="13" y="85">Confusion, lostness.</tspan>
+                <tspan x="13" y="105">Fear of shaming</tspan>
+                <tspan x="123.16" y="105" font-family="LucidaGrande, Lucida Grande">, </tspan>
+                <tspan x="13" y="125" font-family="LucidaGrande, Lucida Grande">penalty</tspan>
+                <tspan x="69.71875" y="125"> or losing </tspan>
+                <tspan x="13" y="145">business license.</tspan>
+            </text>
+            <text id="phase_title" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#1A1A1A">
+                <tspan x="13" y="31">Awreness</tspan>
+            </text>
+        </g>
+        <text id="“Im-a-restaurateur," font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#5B5B5B">
+            <tspan x="19" y="273">“Im a restaurateur, </tspan>
+            <tspan x="19" y="292">not an accessibility </tspan>
+            <tspan x="19" y="311">expert…”</tspan>
+        </text>
+        <text id="“…This-is-already-ex" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#5B5B5B">
+            <tspan x="231" y="273">“…This is already </tspan>
+            <tspan x="231" y="292">expensive, and we haven’t </tspan>
+            <tspan x="231" y="311">even started modifying…”</tspan>
+        </text>
+        <text id="“…This-thing-will-co" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#5B5B5B">
+            <tspan x="443" y="273">“…This thing will cost a </tspan>
+            <tspan x="443" y="292">fortune. Maybe we can do </tspan>
+            <tspan x="443" y="311">it gradually?”</tspan>
+        </text>
+        <text id="“I-would-negotiate-f" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#5B5B5B">
+            <tspan x="655" y="273">“I would negotiate far </tspan>
+            <tspan x="655" y="292">better offers for all this </tspan>
+            <tspan x="655" y="311">stuff by myself”</tspan>
+        </text>
+        <g id="Group" transform="translate(868.000000, 96.000000)">
+            <text id="“Glad-we-did-it,-but" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#5B5B5B">
+                <tspan x="0" y="177">“Glad we did it, but for </tspan>
+                <tspan x="0" y="196">our next branch I will </tspan>
+                <tspan x="0" y="215">prepare better.”</tspan>
+            </text>
+            <text id="--Regulation--compli" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="20" fill="#1A1A1A">
+                <tspan x="14" y="54">- Regulation- compliace</tspan>
+                <tspan x="14" y="74">- Socially “on good side”</tspan>
+                <tspan x="14" y="94">- Can serve wider range </tspan>
+                <tspan x="14" y="114">    of customers</tspan>
+            </text>
+            <text id="Accessible." font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#1A1A1A">
+                <tspan x="14" y="20">Accessible.</tspan>
+            </text>
+        </g>
+        <text id="Current-user-journey" font-family="Quicksand-Light_Medium, Quicksand" font-size="24" font-weight="400" fill="#1C1C1C">
+            <tspan x="19" y="49">Current user journey:</tspan>
+        </text>
+        <path d="M252,97 C258.632953,97 264,102.367516 264,109 C264,115.632953 258.632437,121 252,121 C245.367047,121 240,115.632484 240,109 C240,102.367047 245.367562,97 252,97 Z M252,98.875 C246.403453,98.875 241.875,103.403828 241.875,109 C241.875,114.596547 246.403875,119.125 252,119.125 C257.596547,119.125 262.125,114.596172 262.125,109 C262.125,103.403453 257.596125,98.875 252,98.875 Z M255.083404,104.605001 C255.445532,104.242824 256.032756,104.242777 256.395024,104.605001 C256.757199,104.967225 256.757152,105.554453 256.394978,105.916631 L256.394978,105.916631 L253.644953,108.666675 L256.394978,111.41672 C256.757199,111.778897 256.757245,112.366126 256.395024,112.72835 C256.032803,113.090573 255.445486,113.090527 255.083404,112.72835 L255.083404,112.72835 L252.333333,109.978305 L249.583263,112.72835 C249.221181,113.090481 248.633957,113.09062 248.271643,112.72835 C247.909422,112.366172 247.909468,111.778944 248.271689,111.41672 L248.271689,111.41672 L251.021713,108.666675 L248.271689,105.916631 C247.909468,105.554453 247.909468,104.967225 248.271643,104.605001 C248.633817,104.242777 249.221134,104.242777 249.583263,104.605001 L249.583263,104.605001 L252.333333,107.355046 Z" id="Combined-Shape" fill="#FF4343" fill-rule="nonzero"></path>
+        <path d="M467,97 C473.632953,97 479,102.367516 479,109 C479,115.632953 473.632437,121 467,121 C460.367047,121 455,115.632484 455,109 C455,102.367047 460.367563,97 467,97 Z M467,98.875 C461.403453,98.875 456.875,103.403828 456.875,109 C456.875,114.596547 461.403875,119.125 467,119.125 C472.596547,119.125 477.125,114.596172 477.125,109 C477.125,103.403453 472.596125,98.875 467,98.875 Z M470.083404,104.605001 C470.445532,104.242824 471.032756,104.242777 471.395024,104.605001 C471.757199,104.967225 471.757152,105.554453 471.394978,105.916631 L471.394978,105.916631 L468.644953,108.666675 L471.394978,111.41672 C471.757199,111.778897 471.757245,112.366126 471.395024,112.72835 C471.032803,113.090573 470.445486,113.090527 470.083404,112.72835 L470.083404,112.72835 L467.333333,109.978305 L464.583263,112.72835 C464.221181,113.090481 463.633957,113.09062 463.271643,112.72835 C462.909422,112.366172 462.909468,111.778944 463.271689,111.41672 L463.271689,111.41672 L466.021713,108.666675 L463.271689,105.916631 C462.909468,105.554453 462.909468,104.967225 463.271643,104.605001 C463.633817,104.242777 464.221134,104.242777 464.583263,104.605001 L464.583263,104.605001 L467.333333,107.355046 Z" id="Combined-Shape" fill="#FF4343" fill-rule="nonzero"></path>
+        <path d="M678,97 C684.632953,97 690,102.367516 690,109 C690,115.632953 684.632438,121 678,121 C671.367047,121 666,115.632484 666,109 C666,102.367047 671.367562,97 678,97 Z M678,98.875 C672.403453,98.875 667.875,103.403828 667.875,109 C667.875,114.596547 672.403875,119.125 678,119.125 C683.596547,119.125 688.125,114.596172 688.125,109 C688.125,103.403453 683.596125,98.875 678,98.875 Z M681.083404,104.605001 C681.445532,104.242824 682.032756,104.242777 682.395024,104.605001 C682.757199,104.967225 682.757152,105.554453 682.394978,105.916631 L682.394978,105.916631 L679.644953,108.666675 L682.394978,111.41672 C682.757199,111.778897 682.757245,112.366126 682.395024,112.72835 C682.032803,113.090573 681.445486,113.090527 681.083404,112.72835 L681.083404,112.72835 L678.333333,109.978305 L675.583263,112.72835 C675.221181,113.090481 674.633957,113.09062 674.271643,112.72835 C673.909422,112.366172 673.909468,111.778944 674.271689,111.41672 L674.271689,111.41672 L677.021713,108.666675 L674.271689,105.916631 C673.909468,105.554453 673.909468,104.967225 674.271643,104.605001 C674.633817,104.242777 675.221134,104.242777 675.583263,104.605001 L675.583263,104.605001 L678.333333,107.355046 Z" id="Combined-Shape" fill="#FF4343" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="1200px" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shaft</title>
+    <g id="shaft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-499.000000, -499.000000)">
+            <g id="Axis" transform="translate(1099.000000, 1099.000000) rotate(45.000000) translate(-1099.000000, -1099.000000) translate(322.000000, 322.000000)" stroke="#979797">
+                <line x1="0.5" y1="776.707107" x2="1553.5" y2="776.707107" id="X"></line>
+                <line x1="777" y1="0.207106781" x2="777" y2="1553.20711" id="Y"></line>
+            </g>
+            <rect id="00" stroke="#171717" fill="#EFEFEF" x="894" y="894" width="410" height="410"></rect>
+            <rect id="01" stroke="#171717" x="874" y="874" width="450" height="450"></rect>
+            <rect id="02" stroke="#171717" x="845" y="845" width="508" height="508"></rect>
+            <rect id="03" stroke="#171717" opacity="0.331165859" x="783" y="781" width="646" height="646"></rect>
+            <rect id="04" stroke="#171717" opacity="0.251898629" x="680" y="678" width="842" height="842"></rect>
+        </g>
+    </g>
+</svg>
