@@ -273,7 +273,7 @@ ol li{
   font-family: var(--tf-heading);
   font-size: clamp( var(--fontsize_min), 2.828vmax, var(--fontsize_max));
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.25;
 }
 .heading_03 {
   --fontsize_min: 1.302rem;
