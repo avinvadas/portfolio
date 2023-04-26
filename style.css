@@ -110,6 +110,31 @@ li {
 ol li{
   list-style-type: none;
 }
+.clients_gallery{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1fr 1fr 1fr;
+  width:70vw;
+  height:70%;
+  padding:0;
+  margin:auto;
+  
+  transform:scale(0.85);
+  width:100%;
+  max-width:60rem;
+
+}
+.clients_gallery *{
+ list-style: none;
+ display:grid;
+ width: 75%;
+ max-width:60vw;
+ justify-self:center;
+ align-self:center;
+ padding:4vmin;
+ 
+ 
+}
 
 .project_li a {
 
@@ -460,9 +485,11 @@ margin-bottom:0.5rem;
 
 }
 .block_emphasized *{
-  padding:5vmin;
+  margin-top:5vmin;
   line-height:1.75;
   font-family:var(--tf-body);
+  font-weight:400;
+ 
 }
 
 .service{
@@ -1498,6 +1525,17 @@ margin:auto;
 
 .name_and_title{
   text-align:center;
+}
+
+.clients_gallery{
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: fr fr fr fr;
+  width:100%;
+  padding:0;
+  margin:0;
+  
+
 }
 
 }
