@@ -114,11 +114,8 @@ ol li{
   display:grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 1fr 1fr 1fr;
-  width:70vw;
   height:70%;
   padding:0;
-  margin:auto;
-  
   transform:scale(0.85);
   width:100%;
   max-width:60rem;
@@ -132,7 +129,7 @@ ol li{
  justify-self:center;
  align-self:center;
  padding:4vmin;
- 
+
  
 }
 
@@ -505,7 +502,7 @@ text-align: left;
   margin-left:1rem;
   margin-right:1rem;
   margin-bottom:0.5rem;
-  width:95%;
+  width:75%;
   
 }
 /*
@@ -1543,6 +1540,6 @@ margin:auto;
 
 @media only screen and (min-width: 1920px) {
 :root{
-font-size:24px;
+font-size:20px;
 }
 }
