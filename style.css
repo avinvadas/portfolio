@@ -274,7 +274,7 @@ ol li{
     transform:translateX(-8.5%);
     background-size:200% 100%;
     background-position:200%;
-    background-image: linear-gradient(to right, var(--dark01) 0%, var(--dark01) 41.3%, transparent 41.3%, transparent 100%);
+    background-image: linear-gradient(to right, var(--dark01) 0%, var(--dark01) 43.3%, transparent 43.3%, transparent 100%);
     animation: typo_reveal_b 0.33s ease-in-out 0s forwards;
     overflow:hidden;
     z-index:2;
@@ -286,7 +286,7 @@ ol li{
   }
   @keyframes typo_reveal_b{
     from {background-position:-100%;} 
-    to{background-position:-11%;}
+    to{background-position:-7%;}
 
   }
 .heading_02 {
