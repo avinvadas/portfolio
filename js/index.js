@@ -18,9 +18,9 @@ var scene_heading_work = new ScrollMagic.Scene({
   .addTo(controller);
 
   var scene_heading_testimonials = new ScrollMagic.Scene({
-    triggerElement: "#section_heading-about"
+    triggerElement: "#section_heading-testimonials"
   })
-    .setClassToggle("#section_heading-about", "section__heading--reveal")
+    .setClassToggle("#section_heading-testimonials", "section__heading--reveal")
     .triggerHook("onEnter")
     .addTo(controller);
 var scene_heading_testimonials = new ScrollMagic.Scene({
@@ -45,6 +45,13 @@ triggerElement: "#section_heading-publications"
     .setClassToggle("#section_heading-contact", "section__heading--reveal")
     .triggerHook("onEnter")
     .addTo(controller);
+
+    var scene_heading_work = new ScrollMagic.Scene({
+      triggerElement: "#section_heading-sideGig"
+    })
+      .setClassToggle("#section_heading-sideGig", "section__heading--reveal")
+      .triggerHook("onEnter")
+      .addTo(controller);
 
 var scene_proj01_image = new ScrollMagic.Scene({
   triggerElement: "#project01_image"

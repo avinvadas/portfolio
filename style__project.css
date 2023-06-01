@@ -16,6 +16,10 @@ font-size:16px;
 --bgColor: black;
 --blue01: #14A1DE;
 --blue02: #0066b0;
+--purple:#474199;
+--apuxie:#FF2B6D;
+--apuxie_bright:#F795B3;
+--purple_mid:#7a24bb/*#8854B0*/;
 --link_idle: var(--textColor);
 }
 
@@ -25,7 +29,7 @@ body{
   color: var(--textColor);
   background:var(--bgColor);
   background: var(--bgColor);
-  background-image: linear-gradient(45deg,var(--blue_dark),var(--blue_mid)),radial-gradient(circle, rgba(255,255,255,0.2) 0.07rem, rgba(0,0,0,0.0) 0.07rem);
+  background-image: linear-gradient(45deg,var(--purple_mid),var(--blue_mid)),radial-gradient(circle, rgba(255,255,255,0.2) 0.07rem, rgba(0,0,0,0.0) 0.07rem);
   background-size:100vw 100vh,1rem 1rem;
   background-repeat: no-repeat,repeat;
 }
@@ -328,7 +332,7 @@ place-items:center;
 
 }
 #AppScan{
-  animation: fadein 1s forwards;
+  
     opacity:1;
     grid-column-start:3 ;
     grid-column-end:5;
@@ -338,21 +342,32 @@ place-items:center;
     margin:auto;
     margin-top:0;
     height:fit-content;
-    transform: scale(2.0);
+    transform: scale(2.75);
     overflow:visible;
+    
 }
 #AppScan .svg_container{
   background:transparent;
+  
 }
+
 .svg_container{
 
   background-image:linear-gradient(var(--bright01), var(--bright04));
   border-radius:15%;
   padding:10%;
-  width:75%;
- height:auto;
- margin:0;
+  width:12vmin;
+ height:12vmin;
+ max-width:5rem;
+ max-height:5rem;
+ margin:auto;
+ margin-bottom:0.5rem;
  
+}
+#AppScan .svg_container svg{
+  background:transparent;
+  border-radius:50%;
+  
 }
 
 #ASD{
@@ -456,7 +471,7 @@ width:100%;
 }
 #icons_slide{
   height: 100vh;
- 
+  
 }
 .logos_column{
   margin-top:5rem;

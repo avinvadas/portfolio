@@ -21,9 +21,9 @@ icons_tl.addLabel("ASD_in", "2")
 
 
 icons_tl
-.to("#AppScan",{ translateY: -1.5, scale:0.58, duration: unit_span, ease: easeOut},"AppScan_out")
+.to("#AppScan",{ translateY: -1.5, scale:0.58, duration: unit_span},"AppScan_out")
 .to("#AppScan_gradstop_02",{attr:{offset:"100%", duration: 0.25}},"AppScan_out-0.1")
-.to("#AppScan",{opacity:0, duration: 0.5})
+.to("#AppScan",{opacity:0, duration: unit_span})
 .to("#ASE",{opacity:1, duration: 1.0},"ASE_in")
 .to("#ASoC",{opacity:1, duration: 0.5},"ASoC_in")
 .to("#SRC",{opacity:1, duration: 0.5},"SRC_in")
