@@ -216,7 +216,7 @@ figure{
   height:auto;
   min-height:50vmax;
   overflow:hidden;
-background:black;
+background:inherit;
 margin-top:7rem;
 }
 .fullRange__image img{
