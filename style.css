@@ -587,6 +587,12 @@ margin-right: 0.5rem;
   line-height: 1.5;
   opacity: 0.75;
 }
+.figcaption a{
+  color: var(--link_idle);
+  text-decoration: none;
+  
+  background:none;
+}
 .section {
   width: 100%;
   margin: 0;
@@ -1380,7 +1386,16 @@ transform:translateY(0.1rem) scale(1.25);
   -webkit-box-shadow: -0.5em -0.5em 0 var(--dark02);
           box-shadow: -0.5em -0.5em 0 var(--dark02);
 }
-
+.article_image{
+  width:100%;
+  height:auto;
+  max-width:25rem;
+}
+.article_image img{
+  width:100%;
+  height:auto;
+  max-width:25rem;
+}
 .testimonial .paragraph{
   width:inherit;
   background: var(--dark02);
