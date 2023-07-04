@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="16"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_7)">
+<g filter="url(#filter0_d_335_7)">
+<path d="M14.4088 4.76997V7.103C14.4088 7.12405 13.6967 7.12742 13.4262 7.12796L13.3278 7.12807C12.9741 7.12807 12.6211 7.14303 12.2405 7.87845L9.82233 13.8675C9.54565 14.6224 8.99067 15 8.15705 15V11.8592L9.93075 7.10318L8.64808 7.103C8.44552 7.103 8.15705 7.103 8.15705 6.65432V4.76997H14.4088ZM8.15705 1V4.05709C8.15705 4.05709 6.92564 7.18054 6.46676 8.36807C6.45783 8.39115 8.15705 8.36807 8.15705 8.36807V10.8558L6.45212 10.8557C5.7889 10.8557 5.50489 10.8769 5.50489 11.4068V12.7849C5.50489 13.023 5.59956 13.428 5.22071 13.428H2V10.8849H2.44923C2.92293 10.8849 3.10655 10.5999 3.23159 10.3044C4.3435 7.66944 5.39861 4.90883 6.46658 2.174C6.92582 1.02561 7.68335 1.02561 8.15705 1Z" fill="#181818"></path>
+</g>
+</g>
+<defs>
+<filter id="SvgjsFilter1001" x="-99" y="-100" width="214.409" height="216" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+<feOffset></feOffset>
+<feGaussianBlur stdDeviation="50.5"></feGaussianBlur>
+<feComposite in2="hardAlpha" operator="out"></feComposite>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_335_7"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_335_7" result="shape"></feBlend>
+</filter>
+<clipPath id="SvgjsClipPath1000">
+<rect width="16" height="16" fill="white"></rect>
+</clipPath>
+</defs>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
