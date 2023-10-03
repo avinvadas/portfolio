@@ -126,6 +126,7 @@ ol li{
   transform:scale(0.85);
   width:100%;
   max-width:60rem;
+ 
 
 }
 .clients_gallery *{
@@ -527,7 +528,7 @@ margin-bottom:0.5rem;
 
 }
 .block_emphasized *{
-  margin-top:5vmin;
+  /*margin-top:5vmin;*/
   line-height:1.75;
   font-family:var(--tf-body);
   font-weight:400;
@@ -1519,7 +1520,7 @@ margin-top:0;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-
+  
   
 }
 /*
